@@ -1,0 +1,28 @@
+* {
+    margin:  0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 0.875rem Roboto, sans-serif;
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --background: #2c2f33;
+    --night: #311D3F;
+    --primary: #E23E57;
+    --secundary: #88304E;
+    --dark: #522546;
+}
+
+input, button, textarea {
+    font: 400 1rem Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
